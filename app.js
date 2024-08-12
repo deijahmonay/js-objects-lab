@@ -19,8 +19,6 @@ const game = {
     ],
   }
 
-//   console.dir(pokemon, { maxArrayLength: null }) //  will name all the pokemon
+  console.dir(pokemon, { maxArrayLength: null })
 
-game.
-
-console.log(pokemon) // name some pokemon
+  // console.log(game)
