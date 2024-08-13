@@ -21,6 +21,12 @@ const game = {
 
   console.dir(pokemon, { maxArrayLength: null })
 
+  //Exercise 1 -- accidentally skipped
+
+console.log(pokemon[58].name)
+
+  //Exercise 2 on line 30
+
   // console.log(game)
 
   /*
@@ -44,5 +50,5 @@ Exercise 4
 Solve Exercise 4 here:
 */
 
-
+game.party.push(pokemon[0]) //I belive this is what is being asked of me, unsure if I should return anything
 
