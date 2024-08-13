@@ -23,7 +23,7 @@ const game = {
 
   //Exercise 1 -- accidentally skipped
 
-console.log(pokemon[58].name)
+console.log(pokemon[58].name) // .name specificies thats the only information wanted in return
 
   //Exercise 2 on line 30
 
