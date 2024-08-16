@@ -23,11 +23,12 @@ const game = {
 
   //Exercise 1 -- accidentally skipped
 
-console.log(pokemon[58].name) // .name specificies thats the only information wanted in return
+console.log(pokemon[59].name) // .name specificies thats the only information wanted in return
 
   //Exercise 2 on line 30
 
-  // console.log(game)
+  console.log(game)
+  console.log(game.party)
 
   /*
 Exercise 3
@@ -50,7 +51,9 @@ Exercise 4
 Solve Exercise 4 here:
 */
 
-game.party.push(pokemon[0]) //I belive this is what is being asked of me, unsure if I should return anything
+const starterPokemon = pokemon.find(poke => poke.starter === true);
+game.party.push(starterPokemon);
+console.log(game);
 
 /*
 Exercise 5
@@ -62,8 +65,8 @@ Solve Exercise 5 here:
 */
 
 
-game.party.push(pokemon[7], pokemon[81], pokemon[11])
-console.log(pokemon[7], pokemon[81], pokemon[11])
+// game.party.push(pokemon[7], pokemon[81], pokemon[11])
+// console.log(pokemon[7], pokemon[81], pokemon[11])
 
 /*
 Exercise 6
@@ -71,7 +74,4 @@ Exercise 6
 2. Think about how you'd loop through the `gyms` array to check and update the `completed` property.
 
 
-Solve Exercise 6 here:
-*/
-
-
+Solve Exercise 6 here: */
